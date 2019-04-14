@@ -22,6 +22,14 @@ Author: [Ke Ding](https://github.com/Lonelyearner), *School of Optics and Photon
 - 使用模拟退火算法优化，获得一维达曼光栅结构最优解
 - 生成二维达曼光栅，并显示结果
 ## 结果
-![loss](https://raw.githubusercontent.com/Lonelyearner/Damman_grating_simulation.matlab/master/result/loss.PNG "损失变化")
+> 损失曲线
+
+![loss](https://raw.githubusercontent.com/Lonelyearner/Damman_grating_simulation.matlab/master/result/loss.PNG "损失曲线")
+
+> 5×5， 7×7，9×9点阵的实现及其效果图
+
 ![patterns](https://raw.githubusercontent.com/Lonelyearner/Damman_grating_simulation.matlab/master/result/patterns.PNG "光栅单元及其阵列衍射图样")
+
+> 5×5点阵下alpha参数的影响
+
 ![evaluation](https://raw.githubusercontent.com/Lonelyearner/Damman_grating_simulation.matlab/master/result/evaluation.PNG "模型评估")
