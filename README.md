@@ -3,16 +3,16 @@
 
 Author: [Ke Ding](https://github.com/Lonelyearner), *School of Optics and Photonics, BIT*
 
-## 问题描述
+> ### 问题描述
 寻找一种达曼光栅周期结构，使其在规定误差函数意义下最优
-## 模型假设
+> ### 模型假设
 光学系统是2f 系统，仿真时可以直接使用fft记算衍射图样
-## 模型简化
+> ### 模型简化
 - 周期结构参数(突变点对)取值在(0,1)
 - 对周期结构密集采样，该过程造成的频谱损失忽略不计
 - 达曼光栅相位为{0,𝜋}二值分布，对应于复振幅透射系数{1,−1}二值分布
 - 二维达曼光栅可由一维达曼光栅生成，仅考虑一维光栅的优化
-## 模型描述
+> ### 模型描述
 - 变量初始化
 - 单次迭代过程
    - 随机选取突变点对或扰动突变点
@@ -21,15 +21,15 @@ Author: [Ke Ding](https://github.com/Lonelyearner), *School of Optics and Photon
    - 计算代价
 - 使用模拟退火算法优化，获得一维达曼光栅结构最优解
 - 生成二维达曼光栅，并显示结果
-## 结果
-> 损失曲线
+> ### 结果
+损失曲线  
 
-![loss](https://raw.githubusercontent.com/Lonelyearner/Damman_grating_simulation.matlab/master/result/loss.PNG "损失曲线")
+![loss](https://user-images.githubusercontent.com/29177342/56137097-abae4900-5fc6-11e9-9b2e-59fbc6627564.PNG)
 
-> 5×5， 7×7，9×9点阵的实现及其效果图
+5×5， 7×7，9×9点阵的实现及其效果图  
 
-![patterns](https://raw.githubusercontent.com/Lonelyearner/Damman_grating_simulation.matlab/master/result/patterns.PNG "光栅单元及其阵列衍射图样")
+![patterns](https://user-images.githubusercontent.com/29177342/56137104-ad780c80-5fc6-11e9-8aa7-4b6842989237.PNG)
 
-> 5×5点阵下alpha参数的影响
+5×5点阵下alpha参数的影响  
 
-![evaluation](https://raw.githubusercontent.com/Lonelyearner/Damman_grating_simulation.matlab/master/result/evaluation.PNG "模型评估")
+![evaluation](https://user-images.githubusercontent.com/29177342/56137107-aea93980-5fc6-11e9-8fbe-fb34a416fefd.PNG)
